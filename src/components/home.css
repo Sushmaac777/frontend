@@ -1,0 +1,73 @@
+/* styles.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 20px;
+  }
+  
+  
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-image {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .home-text {
+    text-align: left;
+  }
+  
+  /* Additional styling for h1 and p elements */
+  .home-text h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .home-text p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quick-links ul,
+.location ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quick-links li,
+.location li {
+  margin-bottom: 5px;
+}
+
+.quick-links a,
+.location li {
+  text-decoration: none;
+  color: white;
+}
+
+.contact p {
+  margin: 0;
+}
+
+
+
+  
