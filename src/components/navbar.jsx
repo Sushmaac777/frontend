@@ -25,7 +25,9 @@ const NavigationBar = () => {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-      <li className="nav-item home-icon"><Link to="/"><img src="../public/chabi.png" alt="Home" /></Link></li>
+      <li className="nav-item home-icon"><Link to="/"
+      >
+        <img src="./images/chabi.jpg" height={40}  width={200} alt="Home" /></Link></li>
         <li className="nav-item"><Link to="/">Home</Link></li>
         <li className="nav-item"><Link to="/available-room">Available Rooms</Link></li>
         <li className="nav-item"><Link to="/about">About Us</Link></li>

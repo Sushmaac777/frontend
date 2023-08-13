@@ -5,12 +5,17 @@ import './AboutUs.css';
 const AboutUs = () => {
   return (
     <div className="about-us-container">
-      <div className="content">
+    <div className="content">
+      <div className="text">
         <h1>About Us</h1>
         <p>The expansion of information technology-related content and services is currently unavoidable because it creates new opportunities and encourages the development of businesses that rent out spaces with brand-new contents and services that benefit the community. Finding a room to rent has become a difficult task. However, these duties can be simplified with the help of websites that can assist people in their home search. Because website can make this task simple in the age of smartphones. These websites make it simpler to look for a rental property.
 
-Our project is only dedicated to the room seekers not the house and land. Our system holds all these features that helps for the effective management of room and flat. The room rental website will address the issue of helping tenants to find a room quickly, also maintain their records and contacts. Additionally, it makes easy for tenants to locate the apartments or rooms they need. House owners should also publish information of their rooms.</p>
+Our project is only dedicated to the room seekers not the house and land. Our system holds all these features that help for the effective management of room and flat. The room rental website will address the issue of helping tenants to find a room quickly, also maintain their records and contacts. Additionally, it makes easy for tenants to locate the apartments or rooms they need. House owners should also publish information about their rooms.</p>
       </div>
+      <div className="image">
+        <img src="/images/chabi.jpg" alt="Home" />
+      </div>
+    </div>
 
       <footer className="footer">
         <div className="quick-links">

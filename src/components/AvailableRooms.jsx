@@ -12,7 +12,7 @@ const AvailableRooms = () => {
       location: 'Kathmandu',
       price: 3000,
       description: 'A beautiful room.',
-      imageUrl: 'url-to-your-image-1.jpg', // Add image URL for each room
+      imageUrl: './images/home.png', // Add image URL for each room
       booked: false,
     },
     {

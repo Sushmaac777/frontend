@@ -3,16 +3,17 @@ import React from 'react';
 import './home.css';
 import { Link } from 'react-router-dom';
 
+
 const Home = () => {
   return (
     <div className="home-container">
       <div className="content">
         <div className="image">
-          <img src="public/home-image.png" alt="Home" />
+          <img src="/images/roomrent.webp" alt="Home" />
         </div>
         <div className="text">
           <h1>Welcome to Our ROOM RENTAL Website</h1>
-          <p>This is the home page content.</p>
+          <p>Find perfect room for you.</p>
         </div>
       </div>
 
