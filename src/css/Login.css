@@ -1,5 +1,5 @@
 
-/* Login.css */
+
 .overlay {
   position: fixed;
   top: 0;
@@ -19,8 +19,8 @@
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
-  width: 80%; /* Set the width of the content box */
-  max-width: 400px; /* Optionally, set a maximum width for larger screens */
+  width: 80%; 
+  max-width: 400px; 
 }
 
 .close-btn {
@@ -28,7 +28,7 @@
   top: -50px;
   right: 10px;
   font-size: 20px;
-  background: blue;
+  background: #eeeef1;
   border: none;
   cursor: pointer;
   align-items: center;
@@ -46,7 +46,7 @@
 .reset-password-button {
   margin-top: 10px;
   padding: 8px 16px;
-  background-color: #007bff;
+  background-color: #3818ee;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -56,7 +56,7 @@
 .forgot-password-link {
   margin-top: 10px;
   cursor: pointer;
-  color: #007bff;
+  color: #c6dcf4;
   text-decoration: underline;
 }
 

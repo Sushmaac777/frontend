@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
-import './Login.css'; // Import your CSS file
+import { useNavigate } from 'react-router-dom';
+import '../../css/Login.css'; // Import you CSS file
 import './AvailableRooms'
 
 const Login = ({ onClose }) => {
-  const history = useHistory(); // Import useHistory to handle navigation
+  const navigate = useNavigate(); // Import UseNavigate to handle navigation
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -28,12 +28,12 @@ const Login = ({ onClose }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add your login logic here
+    // login logic
   };
 
   const handleCloseForm = () => {
 
-    history.push('/available-rooms'); // Redirect to home page
+    navigate('/available-room'); // Redirect to home page
   
   };
 
@@ -57,7 +57,7 @@ const Login = ({ onClose }) => {
                 id="forgot-email"
                 required
               />
-              <button type="submit" className="reset-password-button">Reset Password</button>
+   
             </form>
           </div>
         ) : (

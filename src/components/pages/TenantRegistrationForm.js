@@ -1,5 +1,5 @@
 import React from 'react';
-import './TenantRegistrationForm.css'; // Import your CSS file for styling
+import '../../css/TenantRegistrationForm.css'; // Import your CSS file for styling
 
 const TenantRegistrationForm = () => {
   const handleSubmit = (event) => {

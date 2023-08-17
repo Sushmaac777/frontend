@@ -1,5 +1,5 @@
 import React from 'react';
-import './profile.css'; // Import your CSS file for styling
+import '../../css/profile.css'; // Import your CSS file for styling
 import CircularAvatar from './CircularAvatar'; // Make sure to import CircularAvatar component
 
 const Profile = () => {
@@ -12,7 +12,7 @@ const Profile = () => {
     // Add other user data here
   };
   const handleLogout = () => {
-    // Add your logout logic here
+    //  logout logic 
   };
 
   return (

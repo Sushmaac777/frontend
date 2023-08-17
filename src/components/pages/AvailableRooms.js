@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom'; // Import useHistory for routing
-import './AvailableRooms.css'; // Import your CSS file for styling
+import { useNavigate } from 'react-router-dom'; // Import UseNavigate for routing
+import '../../css/AvailableRooms.css'; // Import your CSS file for styling
 
 const AvailableRooms = () => {
-  const history = useHistory(); // Initialize useHistory
+  const history = useNavigate(); // Initialize UseNavigate
 
   const [rooms, setRooms] = useState([
     {
@@ -21,7 +21,7 @@ const AvailableRooms = () => {
       location: 'Lalitpur',
       price: 12000,
       description: 'A comfortable 1-bedroom with kitchen.',
-      imageUrl: 'url-to-your-image-2.jpg', // Add image URL for each room
+      imageUrl: 'url-to-your-image-2.jpg', 
       booked: false,
     },
     {
@@ -30,10 +30,10 @@ const AvailableRooms = () => {
       location: 'Bhaktapur',
       price: 25000,
       description: 'Beautiful flat.',
-      imageUrl: 'url-to-your-image-3.jpg', // Add image URL for each room
+      imageUrl: 'url-to-your-image-3.jpg',
       booked: false,
     },
-    // Add more rooms as needed
+    
   ]);
 
   const handleBookClick = (roomId) => {

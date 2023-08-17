@@ -1,17 +1,17 @@
 import React from 'react';
-import './LandlordRegistrationForm.css'; // Import your CSS file for styling
-import { useHistory } from 'react-router-dom';
+import '../../css/LandlordRegistrationForm.css'; // Import your CSS file for styling
+import { useNavigate } from 'react-router-dom';
 
 const LandlordRegistrationForm = () => {
-  const history = useHistory(); // Import useHistory to handle navigation
+  const navigate = useNavigate(); // Import UseNavigate to handle navigation
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add your form submission logic here
+    // form submission logic here
   };
 
   const handleCloseForm = () => {
-    history.push('/available-rooms'); // Redirect to home page
+    navigate('/available-rooms'); // Redirect to home page
   };
 
   return (
